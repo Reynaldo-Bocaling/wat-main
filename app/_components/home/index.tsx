@@ -57,8 +57,8 @@ const Home = () => {
         </div>
         <div className="relative overflow-hidden w-full mt-2 mb-5 z-30">
           <div className=" slide-infinite mx-7 bg-transparent">
-            <span className="neon-text-span text-[3.5rem] md:text-3xl whitespace-nowrap">
-              Reborn on the Base blockchain to reborn on The tron blockchain
+            <span className="neon-text-extra text-[3.5rem] md:text-3xl whitespace-nowrap">
+              Immortalized on Tron Blockchain
             </span>
           </div>
         </div>

@@ -23,7 +23,7 @@ const index = () => {
             <div className="relative overflow-hidden w-full mt-2 mb-5">
               <div className=" slide-infinite mx-7 bg-transparent">
                 <span className="neon-text-extra text-[5rem] md:text-3xl text-yellow-500">
-                  Matt Furie's Pet Rat
+                  To the Sun and Beyond
                 </span>
               </div>
             </div>
