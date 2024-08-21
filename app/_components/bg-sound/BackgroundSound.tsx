@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 
 const BackgroundSound = ({
   isContinue,
@@ -7,15 +7,29 @@ const BackgroundSound = ({
   isContinue: boolean;
   playContinue: () => void;
 }) => {
-  const music = new Audio("/bgsound.mp3");
+  const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  if (isContinue) {
-    music.play();
-    console.log(isContinue, "playu");
-  }
+  useEffect(() => {
+    if (audioRef.current) {
+      // Set the volume level here (0.0 to 1.0)
+      audioRef.current.volume = 0.1; // Example: 20% volume
+
+      if (isContinue) {
+        audioRef.current.play().catch((error) => {
+          console.error("Error playing audio:", error);
+        });
+      } else {
+        audioRef.current.pause();
+        audioRef.current.currentTime = 0; // Optional: reset the playback to start
+      }
+    }
+  }, [isContinue]);
 
   return (
     <>
+      {/* Audio element with adjusted volume */}
+      <audio ref={audioRef} src="/bgsound.mp3" loop />
+
       {!isContinue && (
         <div className="h-full w-full fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-[rgba(0,0,0,0.8)] z-[99]">
           <button
