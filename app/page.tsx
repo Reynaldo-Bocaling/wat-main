@@ -27,14 +27,14 @@ const page = () => {
 
   return (
     <div className="w-full min-h-screen relative pb-20 flexColCenter overflow-hidden">
-      {/* <Home />
+      <Home />
       <About />
       <RoadMap />
       <BuyMeg />
       <Tokenomics />
       <ShortFlight />
       <Cta />
-      <Social /> */}
+      <Social />
 
       {/* background sound */}
       <BackgroundMusic />
