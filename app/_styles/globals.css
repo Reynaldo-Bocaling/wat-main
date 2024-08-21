@@ -208,6 +208,8 @@ body {
   body {
     zoom: 50%;
   }
+
+
 }
 
 @media (max-width: 967px) {
@@ -546,3 +548,38 @@ body {
     transform: scale(1);
   }
 }
+
+.typing-text {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid black;
+  animation: typing 2s steps(14, end), blink 1.75s step-end infinite;
+  padding: 1px 3px;
+
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 60%;
+
+  }
+}
+
+@keyframes blink {
+
+  from,
+  to {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: black;
+  }
+}
+
+@media screen {}

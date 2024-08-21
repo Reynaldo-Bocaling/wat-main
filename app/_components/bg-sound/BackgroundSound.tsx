@@ -12,7 +12,7 @@ const BackgroundSound = ({
   useEffect(() => {
     if (audioRef.current) {
       // Set the volume level here (0.0 to 1.0)
-      audioRef.current.volume = 0.01; // Example: 20% volume
+      audioRef.current.volume = 0.025; // Example: 20% volume
 
       if (isContinue) {
         audioRef.current.play().catch((error) => {
@@ -31,10 +31,13 @@ const BackgroundSound = ({
       <audio ref={audioRef} src="/bgsound.mp3" loop />
 
       {!isContinue && (
-        <div className="h-full w-full fixed top-0 left-0 right-0 bottom-0 flex items-center justify-center bg-[rgba(0,0,0,0.8)] z-[99]">
+        <div className="h-full w-full fixed top-0 left-0 right-0 bottom-0 flex flex-col gap-10 items-center justify-center bg-[rgba(0,0,0,0.8)] z-[99]">
+          <div className="neon-text-title typing-text text-[10rem] md:text-[5rem] font-bold text-left mb-[50rem] md:mb-20 mt-5 ">
+            WELCOME TO $WAT
+          </div>
           <button
             onClick={playContinue}
-            className="neon-text-title text-[8rem] md:text-[3.5rem] font-bold text-left mb-4 mt-5 heartbeat"
+            className="neon-text-extra  text-[7rem] md:text-[2.5rem] font-bold text-left mb-4 mt-5 heartbeat "
           >
             Continue
           </button>
