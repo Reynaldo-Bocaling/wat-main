@@ -12,7 +12,7 @@ const BackgroundSound = ({
   useEffect(() => {
     if (audioRef.current) {
       // Set the volume level here (0.0 to 1.0)
-      audioRef.current.volume = 0.1; // Example: 20% volume
+      audioRef.current.volume = 0.05; // Example: 20% volume
 
       if (isContinue) {
         audioRef.current.play().catch((error) => {
