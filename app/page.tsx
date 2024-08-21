@@ -9,15 +9,16 @@ import ShortFlight from "./_components/short-flight";
 import Cta from "./_components/cta";
 import Social from "./_components/social";
 import Loading from "./_components/loading/BoxLoading";
-import BackgroundMusic from "./_components/bg-sound/BackgroundSound";
+import BackgroundSound from "./_components/bg-sound/BackgroundSound";
 
 const page = () => {
   const [isLoading, setIsLoading] = useState(true);
+  const [isContinue, setIsContinue] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 1500);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -25,8 +26,12 @@ const page = () => {
     return <Loading />;
   }
 
+  const playContinue = () => {
+    setIsContinue(true);
+  };
   return (
     <div className="w-full min-h-screen relative pb-20 flexColCenter overflow-hidden">
+      <BackgroundSound isContinue={isContinue} playContinue={playContinue} />
       <Home />
       <About />
       <RoadMap />
@@ -35,9 +40,6 @@ const page = () => {
       <ShortFlight />
       <Cta />
       <Social />
-
-      {/* background sound */}
-      <BackgroundMusic />
     </div>
   );
 };

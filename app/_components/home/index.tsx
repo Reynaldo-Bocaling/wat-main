@@ -55,7 +55,7 @@ const Home = () => {
           />
           <Moon variant="top-0 left-0 w-[320px] h-[320px]  md:w-[570px] md:h-[570px]" />
         </div>
-        <div className="relative overflow-hidden w-full mt-2 mb-5 z-50">
+        <div className="relative overflow-hidden w-full mt-2 mb-5 z-30">
           <div className=" slide-infinite mx-7 bg-transparent">
             <span className="neon-text-span text-[3.5rem] md:text-3xl whitespace-nowrap">
               Reborn on the Base blockchain to reborn on The tron blockchain
