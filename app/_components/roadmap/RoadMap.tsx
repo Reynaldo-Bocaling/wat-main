@@ -66,39 +66,25 @@ const RoadMap = () => {
   ];
 
   return (
-    <div className="relative grid grid-cols-2 md:grid-cols-3 gap-[1%]">
-      {/* <Image src={roadMap} alt="roadmap" className="mx-auto mb-4 neon-image" /> */}
-
+    <div className="relative flex items-center justify-center gap-[1%] w-full">
       {howtobuy.map((item, index) => (
         <div
           key={index}
-          className="road-blurd flex gap-3 items-start justify-center p-[30px] rounded-[25px]"
+          className="road-blurd flex gap-3 items-start justify-center p-[30px] rounded-[25px] w-1/3"
         >
-          <p className="neon-text-title text-[5rem] font-bold ">{index + 1}</p>
-          <div className="flex flex-col  ">
-            <h1 className="neon-text-title text-[4rem] md:text-[2rem] font-bold text-left mb-4">
-              STEP
-            </h1>
-            <p className="neon-text-title text-[2.2rem] md:text-[1rem] font-bold text-left mb-11">
+          <div className="flex flex-col  items-center justify-center">
+            <p className="neon-text-title text-[5rem] font-bold ">
+              STEP {index + 1}
+            </p>
+            <p className="neon-text-title text-[3rem] md:text-[2rem] font-bold text-left mb-11 pt-12">
               {item.title}
             </p>
-            <p className=" md:mt-3 md:-translate-x-[40px] neon-text-p text-white text-[2.7rem] md:text-xs tracking-wider my-2">
+            <p className=" md:mt-3 md:-translate-x-[40px] neon-text-p text-white text-[2.7rem] md:text-xs tracking-wider my-2 text-center">
               {item.value}
             </p>
           </div>
         </div>
       ))}
-
-      {/* {roadmapText.map((item, index) => (
-        <div
-          key={index}
-          className={`${item.number_variant} flexCenter h-[200px] w-[200px] md:h-[250px] md:w-[250px] rounded-full neon-turquoise-roadmap`}
-        >
-          <h1 className="neon-text-title text-[12rem] md:text-[7.5rem] font-bold text-center">
-            {index + 1}
-          </h1>
-        </div>
-      ))} */}
     </div>
   );
 };

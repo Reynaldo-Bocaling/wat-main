@@ -332,28 +332,28 @@ body {
 }
 
 #home_container {
-  background-image: url("/images/bg.jpg");
+  background-image: url("/img/bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #about_bg {
-  background-image: url("/images/about_bg.jpg");
+  background-image: url("/img/about_bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #roadmap_bg {
-  background-image: url("/images/roadmap_bg.gif");
+  background-image: url("/img/roadmap_bg.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #tokenomics_bg {
-  background-image: url("/images/tokenomics_bg.jpg");
+  background-image: url("/img/tokenomics_bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -361,28 +361,28 @@ body {
 
 #shortFlight_bg {
   background-image: linear-gradient(to right, rgb(80, 40, 40) 0%, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0) 75%, rgb(94, 54, 54) 100%),
-    url("/images/shortFlight_bg.jpg");
+    url("/img/shortFlight_bg.webp");
   background-size: cover, cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #target_bg {
-  background-image: url("/images/shortFlight_bg.jpg");
+  background-image: url("/img/shortFlight_bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #cta_bg {
-  background-image: url("/images/cta.gif");
+  background-image: url("/img/cta.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #social_bg {
-  background-image: url("/images/social_bg.jpeg");
+  background-image: url("/img/social_bg.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
