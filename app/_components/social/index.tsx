@@ -6,8 +6,8 @@ import x from "@/public/img/x.webp";
 import dextools from "@/public/img/dextools.webp";
 import Image from "next/image";
 import Floor from "./Floor";
-import coingecko from "@/public/img/coingecko.webp";
-import coinmarketcap from "@/public/img/CoinMarketCap.webp";
+import tronscan from "@/public/img/tronscan.webp";
+
 import { motion } from "framer-motion";
 
 const index = () => {
@@ -22,7 +22,7 @@ const index = () => {
       <div className="relative max-w-[1365px] w-full  mx-auto mt-40 ">
         <div className="pb-[250px] flexCenter gap-[30px] px-12 mb-[100px]">
           <div className="blurds p-8 rounded-full flexCenter border border-[rgba(250,250,250,0.4)]">
-            <a href="https://t.me/basedmeg">
+            <a href="">
               <Image
                 src={telegram}
                 alt="roadmap"
@@ -34,7 +34,7 @@ const index = () => {
             </a>
           </div>
           <div className="blurds p-10 rounded-full flexCenter border border-[rgba(250,250,250,0.4)]">
-            <a href="https://x.com/BasedMegCoin">
+            <a href="">
               <Image
                 src={x}
                 alt="cloud"
@@ -46,7 +46,19 @@ const index = () => {
             </a>
           </div>
           <div className="blurds p-10 rounded-full flexCenter border border-[rgba(250,250,250,0.4)]">
-            <a href="https://x.com/Meg_Mogs_gf">
+            <a href="">
+              <Image
+                src={tronscan}
+                alt="cloud"
+                className="neon-image  w-[300px] z-10 mx-auto opacity-0 duration-[2s]"
+                onLoadingComplete={(image) =>
+                  image.classList.remove("opacity-0")
+                }
+              />
+            </a>
+          </div>
+          <div className="blurds p-10 rounded-full flexCenter border border-[rgba(250,250,250,0.4)]">
+            <a href="">
               <Image
                 src={dextools}
                 alt="cloud"
@@ -61,30 +73,6 @@ const index = () => {
             <a href="">
               <Image
                 src={dexscreener}
-                alt="cloud"
-                className="neon-image  w-[300px] z-10 mx-auto opacity-0 duration-[2s]"
-                onLoadingComplete={(image) =>
-                  image.classList.remove("opacity-0")
-                }
-              />
-            </a>
-          </div>
-          <div className="blurds p-10 rounded-full flexCenter border border-[rgba(250,250,250,0.4)]">
-            <a href="">
-              <Image
-                src={coinmarketcap}
-                alt="cloud"
-                className="neon-image  w-[300px] z-10 mx-auto opacity-0 duration-[2s]"
-                onLoadingComplete={(image) =>
-                  image.classList.remove("opacity-0")
-                }
-              />
-            </a>
-          </div>
-          <div className="blurds p-10 rounded-full flexCenter border border-[rgba(250,250,250,0.4)]">
-            <a href="">
-              <Image
-                src={coingecko}
                 alt="cloud"
                 className="neon-image  w-[300px] z-10 mx-auto opacity-0 duration-[2s]"
                 onLoadingComplete={(image) =>

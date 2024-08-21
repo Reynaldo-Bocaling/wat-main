@@ -142,7 +142,7 @@ body {
 }
 
 .slide-infinite {
-  animation: slide-infinite 10s linear infinite;
+  animation: slide-infinite 15s linear infinite;
 }
 
 @keyframes rotate-globe {

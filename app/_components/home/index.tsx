@@ -36,20 +36,14 @@ const Home = () => {
               onLoadingComplete={(image) => image.classList.remove("opacity-0")}
             />
 
-            <h1 className="neon-text-title text-[6rem] md:text-[3.5rem] font-bold text-left mb-4">
+            <h1 className="neon-text-title text-[6rem] md:text-[3.5rem] font-bold text-left mb-4 mt-5">
               $WAT
             </h1>
 
-            <h1 className="neon-text-extra text-[4rem] md:text-[1.2rem] font-bold text-left mb-4">
-              Matt Furie's Pet Rat
+            <h1 className="neon-text-extra text-[3rem] md:text-[1.3rem] font-bold text-left mb-4">
+              Matt Furie's Pet
             </h1>
-            <div className="relative overflow-hidden w-full mt-2 mb-5">
-              <div className=" slide-infinite mx-7 bg-transparent">
-                <span className="neon-text-span text-[3.5rem] md:text-3xl">
-                  Buy WAT Today
-                </span>
-              </div>
-            </div>
+
             <button className="neon-button shadow-lg shadow-red-200 rounded-md py-3 px-10 translate-y-8">
               Buy Now
             </button>
@@ -60,6 +54,13 @@ const Home = () => {
             className="neon-red start absolute -left-[60px] top-12 w-[60px] md:w-[120px] z-20 animate-niningning"
           />
           <Moon variant="top-0 left-0 w-[320px] h-[320px]  md:w-[570px] md:h-[570px]" />
+        </div>
+        <div className="relative overflow-hidden w-full mt-2 mb-5 z-50">
+          <div className=" slide-infinite mx-7 bg-transparent">
+            <span className="neon-text-span text-[3.5rem] md:text-3xl whitespace-nowrap">
+              Reborn on the Base blockchain to reborn on The tron blockchain
+            </span>
+          </div>
         </div>
         <>
           <Image
