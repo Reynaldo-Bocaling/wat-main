@@ -35,7 +35,7 @@ const Floor = () => {
               onLoadingComplete={(image) => image.classList.remove("opacity-0")}
             />
             <p className="text-3xl text-red-500  font-bold absolute top-1/2 -translate-y-1/2 left-10">
-              BUY $WAT TODAY
+              BUY SOLDOG TODAY
             </p>
           </div>
         </div>

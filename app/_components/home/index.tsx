@@ -36,12 +36,12 @@ const Home = () => {
               onLoadingComplete={(image) => image.classList.remove("opacity-0")}
             />
 
-            <h1 className="neon-text-title text-[6rem] md:text-[3.5rem] font-bold text-left mb-4 mt-5">
-              $WAT
+            <h1 className="neon-text-title text-[6rem] md:text-6xl font-bold text-left mb-4 mt-5">
+              SOLDOG
             </h1>
 
             <h1 className="neon-text-extra text-[3rem] md:text-[1.3rem] font-bold text-left mb-4">
-              Matt Furie's Pet
+              Solana's BestFriend
             </h1>
 
             <button className="neon-button shadow-lg shadow-red-200 rounded-md py-3 px-10 translate-y-8">

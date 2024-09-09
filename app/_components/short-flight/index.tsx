@@ -18,13 +18,13 @@ const index = () => {
           A SHORT FLIGHT ABOUT
         </h1>
         <h1 className="neon-text-title text-[6.5rem] md:text-[5.5rem] font-bold text-center my-9">
-          $WAT
+          SOLDOG
         </h1>
         <div className="flexColCenter gap-5 mb-16">
           <div className="relative overflow-hidden w-full mt-2 mb-5">
             <div className=" slide-infinite mx-7 bg-transparent">
               <span className="neon-text-extra text-[5rem] md:text-3xl text-yellow-500">
-                Matt Furie's Pet
+                Solana's BestFriend
               </span>
             </div>
           </div>

@@ -17,7 +17,7 @@ const index = () => {
         <Stars />
         <div id="cta" className=" pb-[200px] md:pb-[270px]">
           <h1 className="neon-text-title text-[7.5rem] md:text-[3.5rem] font-bold text-center mb-4">
-            $WAT
+            SOLDOG
           </h1>
           <div className="flexColCenter gap-5 mb-16">
             <div className="relative overflow-hidden w-full mt-2 mb-5">

@@ -8,11 +8,11 @@ const BoxLoading = () => {
       <div className="fixed h-full w-full flexColCenter gap-[30px] bg-[#1b1b1c]">
         <div className="flexColCenter gap-16 md:gap-7 md:translate-y-[70px]">
           <h1 className="neon-text-title text-[10rem] md:text-[3.5rem] font-bold text-left mb-4">
-            $WAT
+            SOLDOG
           </h1>
 
           <h1 className="neon-text-extra text-[8rem] md:text-[1.2rem] font-bold text-left mb-4">
-            Matt Furie's Pet
+            Solana's BestFriend
           </h1>
         </div>
         <Image
