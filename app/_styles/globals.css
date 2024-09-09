@@ -294,19 +294,21 @@ body {
 
 .neon-text-span {
   font-family: 'Press Start 2P', sans-serif;
-  color: #084bf3;
+  color: #00ff00;
   text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000
 }
 
 .neon-text-extra {
   font-family: 'Press Start 2P', sans-serif;
-  color: #dff308;
+  color: #59ff00;
   text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000
 }
 
+/* Candy Green version */
 .neon-button {
   background-color: transparent;
-  border: 2px solid #ff0000;
+  border: 2px solid #23f308;
+  /* Candy Green border */
   color: #fff;
   font-size: 1.5rem;
 
@@ -324,13 +326,16 @@ body {
   left: -2px;
   right: -2px;
   bottom: -2px;
-  background-color: #ff0000;
+  background-color: #65be2e;
+  /* Candy Green background */
   z-index: -1;
   filter: blur(20px);
+  /* Blur effect */
 }
 
 .neon-button:hover {
-  color: #ff0000;
+  color: #2EBE2E;
+  /* Candy Green hover color */
 }
 
 #home_container {
@@ -455,10 +460,10 @@ body {
 }
 
 .neon-turquoise-moon {
-  background: linear-gradient(to right, #e04040, #ff0022);
-  box-shadow: 0 0 3px #f8859a, 0 0 6px #ee8895, 0 0 9px #f58695, 0 0 12px #fa667a;
+  background: linear-gradient(to right, #60e040, #00ff1a);
+  box-shadow: 0 0 3px #a4f885, 0 0 6px #a4f885, 0 0 9px #a4f885, 0 0 12px #a4f885;
   animation: flicker 1.5s infinite alternate;
-  border: 1.5px solid #fb3549;
+  border: 1.5px solid #84fb35;
 }
 
 .neon-turquoise-moon::before,
@@ -468,7 +473,7 @@ body {
   top: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(to right, #ff5656, #fc1b1b);
+  background: linear-gradient(to right, #7dff56, #31fc1b);
   mix-blend-mode: screen;
   border-radius: 100%;
 }
@@ -481,7 +486,7 @@ body {
 
 .neon-turquoise-moon {
   background: linear-gradient(to right, #e04040, #ff0022);
-  box-shadow: 0 0 3px #f8859a, 0 0 6px #ee8895, 0 0 9px #f58695, 0 0 12px #fa667a;
+  box-shadow: 0 0 3px #f8859a, 0 0 6px #adf885, 0 0 9px #f58695, 0 0 12px #fa667a;
   animation: flicker 1.5s infinite alternate;
   border: 1.5px solid #fb3549;
 }

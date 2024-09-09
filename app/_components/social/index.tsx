@@ -45,18 +45,7 @@ const index = () => {
               />
             </a>
           </div>
-          <div className="blurds p-10 rounded-full flexCenter border border-[rgba(250,250,250,0.4)]">
-            <a href="">
-              <Image
-                src={tronscan}
-                alt="cloud"
-                className="neon-image  w-[300px] z-10 mx-auto opacity-0 duration-[2s]"
-                onLoadingComplete={(image) =>
-                  image.classList.remove("opacity-0")
-                }
-              />
-            </a>
-          </div>
+
           <div className="blurds p-10 rounded-full flexCenter border border-[rgba(250,250,250,0.4)]">
             <a href="">
               <Image

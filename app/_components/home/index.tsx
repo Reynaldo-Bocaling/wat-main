@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import logo from "@/public/img/main-logo.webp";
+import logo from "@/public/img/logo2.png";
 import Content from "./Content";
 import Image from "next/image";
 import cloud_img from "@/public/img/cloud1.webp";
@@ -32,7 +32,7 @@ const Home = () => {
             <Image
               src={logo}
               alt="cloud"
-              className="w-[180px] md:w-[250px] z-10 opacity-0 duration-[2s]"
+              className="w-[180px] md:w-[270px] z-10 opacity-0 duration-[2s]"
               onLoadingComplete={(image) => image.classList.remove("opacity-0")}
             />
 
@@ -58,7 +58,7 @@ const Home = () => {
         <div className="relative overflow-hidden w-full mt-2 mb-5 z-30">
           <div className=" slide-infinite mx-7 bg-transparent">
             <span className="neon-text-extra text-[3.5rem] md:text-3xl whitespace-nowrap">
-              Immortalized on Tron Blockchain
+              SolDog to the moon
             </span>
           </div>
         </div>
