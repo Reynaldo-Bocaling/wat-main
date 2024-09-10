@@ -32,7 +32,7 @@ const Home = () => {
             <Image
               src={logo}
               alt="cloud"
-              className="w-[180px] md:w-[250px] z-10 opacity-0 duration-[2s]"
+              className="w-[130px] md:w-[250px] z-10 opacity-0 duration-[2s]"
               onLoadingComplete={(image) => image.classList.remove("opacity-0")}
             />
 

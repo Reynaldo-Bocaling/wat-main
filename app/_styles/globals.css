@@ -307,10 +307,10 @@ body {
 /* Candy Green version */
 .neon-button {
   background-color: transparent;
-  border: 2px solid #23f308;
+  border: 2px solid #f32708;
   /* Candy Green border */
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.9rem;
 
   cursor: pointer;
   outline: none;
@@ -326,7 +326,7 @@ body {
   left: -2px;
   right: -2px;
   bottom: -2px;
-  background-color: #65be2e;
+  background-color: #be2e2e;
   /* Candy Green background */
   z-index: -1;
   filter: blur(20px);
