@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import logo from "@/public/img/logo3.png";
+import logo from "@/public/img/logo4.png";
 import Content from "./Content";
 import Image from "next/image";
 import cloud_img from "@/public/img/cloud1.webp";
@@ -32,7 +32,7 @@ const Home = () => {
             <Image
               src={logo}
               alt="cloud"
-              className="w-[180px] md:w-[270px] z-10 opacity-0 duration-[2s]"
+              className="w-[180px] md:w-[250px] z-10 opacity-0 duration-[2s]"
               onLoadingComplete={(image) => image.classList.remove("opacity-0")}
             />
 
