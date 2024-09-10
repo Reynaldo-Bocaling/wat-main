@@ -20,7 +20,7 @@ const RightContent = () => {
         </p>
       </div>
       <div className="flex flex-col items-center gap-5 translate-y-[10px] md:translate-y-[80px] ">
-        <p className=" font-semibold text-3xl mb-5 neon-text-span">BASE CA:</p>
+        <p className=" font-semibold text-3xl mb-5 neon-text-span">SOL CA:</p>
         <button className="neon-button rounded-md py-4 px-12 ">Buy Now</button>
       </div>
     </motion.div>

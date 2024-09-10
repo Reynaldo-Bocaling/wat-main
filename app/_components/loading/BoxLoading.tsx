@@ -12,7 +12,7 @@ const BoxLoading = () => {
           </h1>
 
           <h1 className="neon-text-extra text-[8rem] md:text-[1.2rem] font-bold text-left mb-4">
-            Solana's BestFriend
+            The Solana's Dog
           </h1>
         </div>
         <Image

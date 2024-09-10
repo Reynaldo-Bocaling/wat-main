@@ -24,7 +24,7 @@ const index = () => {
           <div className="relative overflow-hidden w-full mt-2 mb-5">
             <div className=" slide-infinite mx-7 bg-transparent">
               <span className="neon-text-extra text-[5rem] md:text-3xl text-yellow-500">
-                Solana's BestFriend
+                The Solana's Dog
               </span>
             </div>
           </div>

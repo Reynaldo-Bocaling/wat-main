@@ -30,7 +30,7 @@ const index = () => {
           LP: BURN
         </h1>
         <h1 className="neon-text-span text-[4.5rem] md:text-[2.2rem] text-center font-bold  mb-7">
-          CHAIN: TRON
+          CHAIN: SOLANA
         </h1>
 
         <Floor />

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import logo from "@/public/img/logo2.png";
+import logo from "@/public/img/logo3.png";
 import Content from "./Content";
 import Image from "next/image";
 import cloud_img from "@/public/img/cloud1.webp";
@@ -41,7 +41,7 @@ const Home = () => {
             </h1>
 
             <h1 className="neon-text-extra text-[3rem] md:text-[1.3rem] font-bold text-left mb-4">
-              Solana's BestFriend
+              The Solana's Dog
             </h1>
 
             <button className="neon-button shadow-lg shadow-red-200 rounded-md py-3 px-10 translate-y-8">
