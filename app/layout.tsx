@@ -3,10 +3,10 @@ import "./_styles/globals.css";
 
 export const metadata: Metadata = {
   title: "SOLDOG",
-  description: " Solana's BestFriend",
+  description: " The Solana's Dog",
   openGraph: {
     images: {
-      url: "./thumbnail.jpg",
+      url: "./thumbnail.jpgs",
       alt: "background image",
       width: 1200,
       height: 650,

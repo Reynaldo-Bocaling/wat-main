@@ -22,7 +22,7 @@ const index = () => {
       <div className="relative max-w-[1365px] w-full  mx-auto mt-40 ">
         <div className="pb-[250px] flexCenter gap-[30px] px-12 mb-[100px]">
           <div className="blurds p-8 rounded-full flexCenter border border-[rgba(250,250,250,0.4)]">
-            <a href="">
+            <a href="https://t.me/DogOfSol">
               <Image
                 src={telegram}
                 alt="roadmap"
@@ -34,7 +34,7 @@ const index = () => {
             </a>
           </div>
           <div className="blurds p-10 rounded-full flexCenter border border-[rgba(250,250,250,0.4)]">
-            <a href="">
+            <a href="https://x.com/Dog_of_Sol">
               <Image
                 src={x}
                 alt="cloud"
